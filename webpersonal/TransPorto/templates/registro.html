@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfil - Transporto</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-green-200 to-blue-200 p-4">
+    <div class="flex items-center justify-between w-full max-w-4xl mb-8">
+      <div class="flex items-center space-x-4">
+        <img src=https://static.vecteezy.com/system/resources/previews/029/887/719/non_2x/minimal-and-abstract-logo-of-bus-icon-school-bus-silhouette-isolated-design-dark-bus-vector.jpg alt="Logo" class="w-12 h-12">
+        <div>
+          <h1 class="text-4xl font-bold">TRANSPORTO</h1>
+          <p class="italic">La forma inteligente de moverse</p>
+        </div>
+      </div>
+      <a href="main.html">
+        <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqVg_URh9Mvrm3NYaTlCUyiM7r382ohELc1g&s alt="Profile Icon" class="w-12 h-12">
+      </a>
+    </div>
+    <div class="w-full max-w-md bg-white p-8 rounded-lg shadow-lg">
+      <h2 class="text-2xl font-bold text-center bg-purple-300 rounded-full py-2 mb-8">Perfil</h2>
+      <form class="space-y-6">
+        <div>
+          <label class="block text-lg font-bold mb-2">NOMBRES</label>
+          <input type="text" class="w-full p-3 rounded-lg bg-zinc-200" placeholder="Nombres">
+        </div>
+        <div>
+          <label class="block text-lg font-bold mb-2">APELLIDOS</label>
+          <input type="text" class="w-full p-3 rounded-lg bg-zinc-200" placeholder="Apellidos">
+        </div>
+        <div>
+          <label class="block text-lg font-bold mb-2">CIUDAD</label>
+          <input type="text" class="w-full p-3 rounded-lg bg-zinc-200" placeholder="Ciudad">
+        </div>
+        <div>
+          <label class="block text-lg font-bold mb-2">CELULAR</label>
+          <input type="text" class="w-full p-3 rounded-lg bg-zinc-200" placeholder="Celular">
+        </div>
+        <div class="text-center">
+        <div class="bg-purple-300 rounded-full px-4 py-2 mb-2">
+          <span class="text-xl font-semibold"><a href="{% url 'registro' %}">Registrar</a></span>
+        </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

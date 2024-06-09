@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transporto - Inicio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="bg-gradient-to-r from-green-200 to-blue-200 p-4">
+    <div class="flex justify-between items-center mb-8">
+      <div>
+        <h1 class="text-4xl font-bold">TRANSPORTO</h1>
+        <p class="italic">La forma inteligente de moverse</p>
+      </div>
+      <img src=https://static.vecteezy.com/system/resources/previews/029/887/719/non_2x/minimal-and-abstract-logo-of-bus-icon-school-bus-silhouette-isolated-design-dark-bus-vector.jpg alt="bus" class="w-48 h-auto">
+    </div>
+    <div class="flex justify-around">
+      <div class="text-center">
+        <div class="bg-purple-300 rounded-full px-4 py-2 mb-2">
+          <span class="text-xl font-semibold"><a href="{% url 'saldo' %}">Saldo</a></span>
+        </div>
+        <img src=https://images.vexels.com/content/145755/preview/money-bag-holding-59d086.png alt="saldo icon" class="w-24 h-24 mx-auto">
+      </div>
+      <div class="text-center">
+        <div class="bg-purple-300 rounded-full px-4 py-2 mb-2">
+          <span class="text-xl font-semibold"><a href="{% url 'tarjeta' %}">Tarjeta</a></span>
+        </div>
+        <img src=https://images.vexels.com/media/users/3/263269/isolated/preview/a461aa900b9a0fc2c3b1533899ed29d0-icono-de-tarjetas-de-visita-de-dinero.png alt="card icon" class="w-24 h-24 mx-auto">
+      </div>
+      <div class="text-center">
+        <div class="bg-purple-300 rounded-full px-4 py-2 mb-2">
+          <span class="text-xl font-semibold"><a href="{% url 'registro' %}">Perfil</a></span>
+        </div>
+        <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqVg_URh9Mvrm3NYaTlCUyiM7r382ohELc1g&s alt="profile icon" class="w-24 h-24 mx-auto">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
